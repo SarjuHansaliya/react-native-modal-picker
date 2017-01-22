@@ -155,7 +155,7 @@ export default class ModalPicker extends BaseComponent {
         }
         return (
             <View style={[styles.selectStyle, this.props.selectStyle]}>
-                <Text style={[styles.selectTextStyle, this.props.selectTextStyle]}>{this.state.selected}</Text>
+                <Text style={[styles.selectTextStyle, this.props.selectTextStyle]} numberOfLines={1}>{this.state.selected}</Text>
             </View>
         );
     }
